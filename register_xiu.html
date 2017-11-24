@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/public/public.css">
+    <link rel="stylesheet" href="css/register_xiugai.css">
+</head>
+<body>
+
+
+<!--提示 modal start-->
+<div class="modal">
+    <div class="modal_container">
+        <div class="down_app" style="display: none">
+            <div class="down_text">
+                是否下载App
+            </div>
+            <div class="down_btn clear-f">
+                <div class=" f-l">
+                    <div class="down_no">
+                        取消
+                    </div>
+                </div>
+                <div class=" f-l">
+                    <div class="down_yes">
+                        <a href="http://sj.qq.com/myapp/detail.htm?apkName=com.meloinfo.czsh ">
+                            确定
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jump_app" style="display: none">
+            <div class="jump_text">
+                是否跳转到APP
+            </div>
+            <div class="jump_btn clear-f">
+                <div class="f-l">
+                    <div class="jump_no">
+                        取消
+                    </div>
+                </div>
+                <div class="f-l">
+                    <div class="jump_yes">
+                        确定
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--提示 modal end-->
+
+    <div class="register_container">
+        <div class="register_banner_container">
+            <div class="register_banner"></div>
+        </div>
+        <div class="content_container">
+            <div class="register">
+                <div class="tel">
+                    <input type="text" placeholder="请输入手机号" id="phone">
+                </div>
+                <div class="verify">
+                    <input type="text" placeholder="请输入验证码" id="verify">
+                    <button  id="sed" class="sed" type="button">
+                        发送验证码
+                    </button>
+                </div>
+                <div class="password">
+                    <input type="password" placeholder="设置登录密码，不少于6位" id="password">
+                    <div>
+                        <img src="images/public/close_eyes.png" alt="" name="0">
+                    </div>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="请填写您的昵称" id="name">
+                </div>
+            </div>
+            <div class="register_btn">
+                <div class="register_text">
+                    注册即代表同意
+                    <span>《用户协议》</span>
+                </div>
+                <div class="register_sign_in" id="register_btn">
+                    注册
+                </div>
+            </div>
+
+            <!--<div id="click_btn_aaa" style="width: 200px;height: 100px;background:#ddd;">点击进入</div>-->
+        </div>
+    </div>
+
+
+
+<script src="js/public/phone.js"></script>
+<script src="js/public/jquery-2.2.3.min.js"></script>
+<script src="js/public/jquery.md5.js"></script>
+<script src="js/public/public.js"></script>
+<script src="js/register_xiu.js"></script>
+</body>
+</html>

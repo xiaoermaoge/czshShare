@@ -1,0 +1,42 @@
+.character_pic {
+  width: 750px;
+  height: 562px; }
+  .character_pic img {
+    width: 100%;
+    height: 100%; }
+
+.character_introduce {
+  text-align: center;
+  margin: 26px 0 40px 0; }
+  .character_introduce .character_name {
+    font-size: 36px;
+    color: #333; }
+  .character_introduce .character_data {
+    margin-top: 20px;
+    font-size: 26px;
+    color: #666;
+    margin-left: -20px; }
+    .character_introduce .character_data span {
+      margin-left: 20px; }
+  .character_introduce .character_experience {
+    padding: 0 28px;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 44px; }
+    .character_introduce .character_experience div.character_zhaiyao {
+      background: #F6F6F6;
+      padding: 10px 26px;
+      color: #666; }
+    .character_introduce .character_experience .character_text_container {
+      margin-top: 20px;
+      color: #333; }
+      .character_introduce .character_experience .character_text_container .character_text:first-child {
+        margin-top: 0; }
+      .character_introduce .character_experience .character_text_container .character_text {
+        margin-top: 20px; }
+        .character_introduce .character_experience .character_text_container .character_text img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+
+/*# sourceMappingURL=character_details.css.map */

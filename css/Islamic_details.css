@@ -1,0 +1,179 @@
+.swiper-slide {
+  width: 750px;
+  height: 352px; }
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.swiper-pagination {
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  margin-left: 26px; }
+
+.swiper-pagination-current:before {
+  display: inline-block;
+  width: 34px;
+  height: 26px;
+  background: url("../images/banner_samll.png") no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  margin-right: 16px;
+  vertical-align: sub; }
+
+.banner_address {
+  margin-top: 10px; }
+  .banner_address .banner_address_title {
+    font-size: 32px;
+    color: #000;
+    padding: 0 28px;
+    box-sizing: border-box; }
+  .banner_address .banner_address_area {
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0 28px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-bottom: 10px; }
+    .banner_address .banner_address_area .banner_address_area_left {
+      padding-right: 20px;
+      border-right: 1px solid #666;
+      margin-right: 20px; }
+  .banner_address .border {
+    border-top: 1px solid #d8d8d8;
+    width: 100%; }
+  .banner_address .banner_address_come {
+    text-align: center;
+    padding: 20px 0 38px 0;
+    color: #333;
+    font-size: 24px; }
+    .banner_address .banner_address_come .bannner_adress_footprint {
+      margin-right: 16px;
+      display: inline-block;
+      width: 34px;
+      height: 30px;
+      background: url("../images/public/banner_adress_come.png") no-repeat;
+      background-size: 100% 100%;
+      vertical-align: sub; }
+
+.contact_address {
+  background: #FAFAFA;
+  padding: 20px 0; }
+  .contact_address .contact_address_content {
+    padding: 26px 28px;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #fff; }
+  .contact_address .contact_address_content > div {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center; }
+    .contact_address .contact_address_content > div .concat_address_icon {
+      width: 30px;
+      height: 40px;
+      background: url("../images/public/concat_address_icon.png") no-repeat;
+      background-size: 100% 100%; }
+    .contact_address .contact_address_content > div .concat_address_content {
+      font-size: 30px;
+      color: #333;
+      margin: 0px 0 3px 18px; }
+  .contact_address .concat_address_phone {
+    background: url("../images/public/concat_address_phone.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+    display: inline-block; }
+    .contact_address .concat_address_phone .restaurant_tel {
+      position: fixed;
+      display: none;
+      top: 0px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10000;
+      background: rgba(0, 0, 0, 0.15); }
+      .contact_address .concat_address_phone .restaurant_tel .modal_tel {
+        width: 710px;
+        margin: 0 auto;
+        height: 100%;
+        position: relative;
+        bottom: 0;
+        color: #007aff;
+        font-size: 42px; }
+        .contact_address .concat_address_phone .restaurant_tel .modal_tel .modal_tel_phone {
+          width: 100%;
+          position: absolute;
+          bottom: 222px;
+          background: #ffffff;
+          border-radius: 12px;
+          display: inline-block;
+          text-align: center; }
+          .contact_address .concat_address_phone .restaurant_tel .modal_tel .modal_tel_phone a {
+            width: 100%;
+            height: 114px;
+            border-bottom: 1px solid #d8d8d8;
+            color: #007aff;
+            text-align: center;
+            text-decoration: none;
+            line-height: 114px;
+            display: block; }
+          .contact_address .concat_address_phone .restaurant_tel .modal_tel .modal_tel_phone a:last-child {
+            border: none; }
+        .contact_address .concat_address_phone .restaurant_tel .modal_tel .modal_tel_abolish {
+          width: 100%;
+          height: 114px;
+          text-align: center;
+          background: #FFF;
+          line-height: 114px;
+          border-radius: 12px;
+          position: absolute;
+          bottom: 92px; }
+  .contact_address .bor-lef {
+    border-left: 1px solid #d8d8d8;
+    margin-right: 34px;
+    height: 56px; }
+
+.container {
+  width: 100%;
+  padding-bottom: 116px; }
+  .container .container_text {
+    padding: 18px 28px; }
+    .container .container_text .container_title {
+      font-size: 32px;
+      color: #333;
+      border-left: 4px solid #46c98d;
+      padding-left: 16px;
+      line-height: 40px;
+      height: 44px; }
+    .container .container_text .container_content {
+      font-size: 14px;
+      margin-top: 18px;
+      color: #333;
+      line-height: 48px; }
+      .container .container_text .container_content div {
+        margin-bottom: 30px;
+        font-size: 28px; }
+
+.Islamic_footer {
+  height: 116px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+  .Islamic_footer .Islamic_footer_ico {
+    height: 116px;
+    width: 750px;
+    background: url("../images/Islamic_footer.png") no-repeat;
+    background-size: 100% 100%; }
+
+/*# sourceMappingURL=Islamic_details.css.map */

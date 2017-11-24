@@ -1,0 +1,369 @@
+.swiper-slide
+  width: 750px
+  height: 352px
+  img
+    width: 100%
+.swiper-pagination
+  font-size: 24px
+  color: #fff
+  text-align: left
+  margin-left: 26px
+.swiper-pagination-current:before
+  display: inline-block
+  width: 34px
+  height: 26px
+  background: url('../images/banner_samll.png') no-repeat
+  background-size: 100% 100%
+  content: ''
+  margin-right: 16px
+  vertical-align: sub
+
+.restaurant_click_like
+  position: absolute
+  top: 6px
+  right: 30px
+  width: 750px
+  height: 346px
+  z-index: 1000
+  .restaurant_unlike
+    width: 100px
+    height: 58px
+    background: #000
+    opacity: 0.53
+    border-radius: 2px
+    line-height: 58px
+    .restaurant_unlike_pic
+      width: 30px
+      height: 30px
+      background: url('../images/unlike.png') no-repeat
+      background-size: 100% 100%
+      margin-top: 14px
+      margin-left: 20px
+  .restaurant_pic_text
+    font-size: 26px
+    color: #fff
+    margin-left: 10px
+  .restaurant_like
+    position: absolute
+    bottom: 42px
+    width: 100px
+    height: 58px
+    background: #000
+    opacity: 0.53
+    border-radius: 2px
+    line-height: 58px
+    right: 0
+    .restaurant_like_pic
+      width: 30px
+      height: 30px
+      background: url('../images/public/person_like.png') no-repeat
+      background-size: 100% 100%
+      margin-top: 14px
+      margin-left: 20px
+
+.restaurant_message
+  box-sizing: border-box
+  padding: 24px 28px 16px 28px
+  .restaurant_details_left
+    width: 480px
+    margin-right: 20px
+    //background: pink
+    .restaurant_name
+      font-size: 32px
+      color: #333
+      display: inline-block
+      height: 42px
+    .restaurant_liquor
+      font-size: 20px
+      display: inline-block
+      background: #fdca1e
+      color: #fff
+      border-radius: 4px
+      padding: 0px 12px 4px 11px
+      vertical-align: middle
+    .restaurant_label
+      margin-top: 20px
+      font-size: 24px
+      color: #333
+      span:first-child:before
+        content: ''
+      span:before
+        content: '/'
+        color: #333
+        font-size: 24px
+    .restaurant_address
+      margin-top: 20px
+      font-size: 24px
+      color: #333
+      .restaurant_xian
+        display: inline-block
+        width: 20px
+        border-right: 1px solid #ddd
+        height: 26px
+      .restaurant_distance
+        margin-left: 20px
+  .restaurant_details_right
+    width: 190px
+    .restaurant_user_sta
+      padding-left: 14px
+      box-sizing: border-box
+      min-width: 155px
+      float: right
+      border-left: 1px solid #ddd
+    .restaurant_like_count
+      font-size: 28px
+      color: #333
+      .restaurant_like_count_pic
+        width: 34px
+        height: 34px
+        background: url('../images/public/restaurant_like.png') no-repeat
+        background-size: 100% 100%
+      .restaurant_like_num
+        margin-left: 16px
+    .restaurant_vote
+      margin-top: 26px
+      font-size: 28px
+      color: #333
+      .restaurant_vote_pic
+        width: 32px
+        height: 26px
+        background: url('../images/public/restaurant_vote.png') no-repeat
+        background-size: 100% 100%
+        margin-right: 16px
+        margin-top: 6px
+.restaurant_record
+  border-top: 1px solid #ddd
+  width: 100%
+  padding: 28px 0
+  font-size: 26px
+  color: #333
+.restaurant_record>div:first-child
+  border: none
+.restaurant_record>div
+  width: 33%
+  border-left: 1px solid #ddd
+  .user_come
+    background: url('../images/public/user_come.png') no-repeat
+    width: 34px
+    height: 30px
+    background-size: 100% 100%
+    margin-right: 14px
+  .user_who_like
+    background: url('../images/public/user_who_like.png') no-repeat
+    width: 34px
+    height: 28px
+    margin-left: 10px
+    margin-right: 14px
+  .user_collect
+    margin-right: 14px
+    width: 32px
+    height: 32px
+    background: url('../images/public/user_collect.png') no-repeat
+    background-size: 100% 100%
+.restaurant_concat
+  .bg_fa
+    width: 100%
+    height: 20px
+    background: #fafafa
+  .restaurant_concat_address
+    padding-top: 18px
+    font-size: 28px
+    color: #333
+    .restaurant_concat_left
+      margin: 0 28px
+      width: 30px
+      height: 40px
+      background: url('../images/public/restaurant_concat_address.png') no-repeat
+      background-size: 100% 100%
+    .restaurant_concat_right
+      border-bottom: 1px solid #ddd
+      padding-bottom: 18px
+      width: 664px
+      .restaurant_concat_name
+        max-width: 570px
+        margin-right: 8px
+        border-right: 1px solid #ddd
+      .restaurant_concat_tel
+        background: url('../images/public/concat_address_phone.png') no-repeat
+        width: 30px
+        height: 30px
+        background-size: 100% 100%
+        margin-left: 20px
+  .restaurant_concat_time
+    padding: 18px 0
+    .restaurant_time_left
+      margin: 0 28px
+      width: 30px
+      height: 30px
+      background: url('../images/public/restraunt_concat_time.png') no-repeat
+      background-size: 100% 100%
+      margin-top: 10px
+    .restaurant_time_right_title
+      font-size: 28px
+      color: #333
+    .restaurant_time_list
+      height: 44px
+      line-height: 44px
+      font-size: 24px
+      color: #333
+      .dot
+        display: inline-block
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        background: #999
+        margin-right: 24px
+.bg_fa
+  width: 100%
+  height: 20px
+  background: #fafafa
+.restaurant_comment
+  .comment_title
+    font-size: 32px
+    color: #3a3a3a
+    padding: 28px
+    border-bottom: 1px solid #ddd
+  .comment_details
+    padding: 18px 0px 24px 0px
+    box-sizing: border-box
+    .comment_person:after
+      content: ''
+      display: table
+      background: #fafafa
+      height: 20px
+      width: 100%
+    .comment_person
+      .personage_manage
+        padding: 0 28px
+        box-sizing: border-box
+        .personage_pic
+          width: 78px
+          height: 84px
+          border-radius: 50%
+          img
+            width: 100%
+        .personage_click
+          margin-left: 24px
+        .personage_click .personage_click_manage
+          font-size: 28px
+          color: #3a3a3a
+          .personage_like
+            width: 30px
+            height: 30px
+            margin-left: 12px
+            display: inline-block
+            img
+              vertical-align: middle
+        .personage_address
+          font-size: 26px
+          color: #666
+          margin-top: 10px
+        .personage_min
+        font-size: 26px
+        color: #666
+      .comment_text
+        padding: 0 28px
+        box-sizing: border-box
+        font-size: 28px
+        color: #3a3a3a
+        line-height: 40px
+        margin-top: 18px
+      .comment_pic
+        padding: 0 28px
+        box-sizing: border-box
+        margin-left: -24px
+        margin-top: 18px
+        .comment_pic_list
+          width: 214px
+          height: 160px
+          margin-left: 24px
+          margin-bottom: 24px
+          img
+            width: 100%
+            height: 100%
+      .comment_like
+        padding: 0 28px 24px 28px
+        box-sizing: border-box
+        .comment_like_dian
+          width: 36px
+          height: 36px
+          img
+            width: 100%
+            height: 100%
+        .comment_like_count
+          color: #ffb32d
+          font-size: 28px
+          margin-left: 10px
+        .comment_like_content
+          width: 36px
+          height: 36px
+          margin-left: 18px
+          img
+            width: 100%
+            height: 100%
+        .comment_like_content_count
+          color: #666
+          font-size: 28px
+          margin-left: 10px
+    .comment_two
+      .comment_two_person
+        padding: 0 28px
+        border-top: 1px solid #ddd
+        .comment_user_like
+          width: 30px
+          height: 30px
+          background: url('../images/public/user_like.png') no-repeat
+          background-size: 100% 100%
+          margin-right: 32px
+          margin-top: 28px
+          min-width: 30px
+        .comment_user_person
+          color: #333
+          font-size: 28px
+          padding: 24px 0
+          span
+            margin-right: 6px
+          span:after
+            content: '1'
+            display: inline-block
+    .comment_two_details
+      border-top: 1px solid #ddd
+      box-sizing: border-box
+      padding: 24px 28px
+      .comment_two_details_comment
+        width: 28px
+        height: 28px
+        background: url('../images/public/user_comment.png') no-repeat
+        background-size: 100% 100%
+        margin-right: 32px
+        margin-top: 12px
+      .comment_two_details_list
+        width: 632px
+        .comment_list_discuss:last-child
+          margin: 0
+        .comment_list_discuss
+          margin-bottom: 48px
+        .comment_two_name
+          font-size: 32px
+          color: #333
+        .comment_two_time_one
+          color: #999
+          font-size: 24px
+        .comment_discuss
+          margin-top: 14px
+          font-size: 26px
+          color: #666
+          text-align: justify
+          span
+            margin-right: 20px
+.default_ico
+  width: 100%
+  height: 116px
+  position: fixed
+  bottom: 0
+  left: 0
+  .default_ico_pic
+    width: 750px
+    height: 116px
+    background: url('../images/default_ico_pic.png') no-repeat
+    background-size: 100% 100%

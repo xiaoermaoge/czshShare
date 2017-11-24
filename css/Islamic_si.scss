@@ -1,0 +1,60 @@
+.islamic_container{
+  padding-bottom: 120px;
+}
+
+.islamic_title{
+  padding: 22px 28px;
+  font-size: 26px;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+}
+
+.islamic_list:after{
+  display: block;
+  content: '';
+  height: 20px;
+  background: #fafafa;
+  width: 100%;
+}
+.islamic_list:last-child:after{
+  display: none;
+}
+@mixin pd_l_r{
+  padding: 0 28px;
+  box-sizing: border-box;
+}
+.islamic_list{
+  padding-top: 26px;
+  box-sizing: border-box;
+  .islamic_img{
+    width: 100%;
+    height: 300px;
+    @include pd_l_r;
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  }
+  .islamic_name{
+    font-size: 32px;
+    color: #000;
+    margin-top: 12px;
+    @include pd_l_r;
+
+  }
+  .islamic_address{
+    font-size: 26px;
+    color: #666;
+    @include pd_l_r;
+    margin-top: 14px;
+    padding-bottom: 26px;
+    .address{
+      width: 555px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

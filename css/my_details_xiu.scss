@@ -1,0 +1,114 @@
+.banner_container{
+  position: relative;
+}
+.swiper-slide{
+  width: 750px;
+  height: 750px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 30px;
+}
+.swiper-pagination-bullet-active{
+  background: #999;
+}
+.my_data{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 40px;
+  width: 110px;
+  height: 68px;
+  z-index: 1000;
+  .user_grade{
+    width: 110px;
+    height: 68px;
+    border-radius: 4px;
+    opacity: 0.4;
+    background: rgba(255,255,255,0.4);
+    color: #46c98d;
+    text-align: center;
+    .user_dengji{
+      font-size: 26px;
+      line-height: 32px;
+      margin-top: 6px;
+    }
+    .user_integral{
+      font-size: 18px;
+    }
+  }
+}
+
+.person_container{
+  padding-bottom: 120px;
+  .person_xian{
+    background: #FAFAFA;
+    width: 100%;
+    height: 18px;
+  }
+  .person_first{
+    padding: 0 28px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #333;
+    .person_name{
+      margin-top: 18px;
+      .sex{
+        width: 32px;
+        height: 32px;
+        margin-left: 14px;
+        img{
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+  .person_first>div{
+    height: 40px;
+    margin-top: 18px;
+  }
+  .person_first>div:last-child{
+    margin-bottom: 18px;
+  }
+
+  .person_second{
+    padding: 0 0 0 28px ;
+    font-size: 30px;
+    color: #333;
+    box-sizing: border-box;
+    .person_occupation>div:first-child{
+      width: 122px;
+      margin-right: 36px;
+    }
+  }
+  .person_second>div{
+    height: 94px;
+    line-height: 94px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+  }
+  .person_signature>div:last-child{
+    max-width: 560px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .person_second>div>div:first-child{
+    width: 122px;
+    margin-right: 36px;
+  }
+}

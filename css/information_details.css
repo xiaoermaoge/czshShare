@@ -1,0 +1,25 @@
+.information_container {
+  padding: 28px 28px 120px 28px; }
+  .information_container .information_title {
+    font-size: 42px;
+    color: #333; }
+  .information_container .information_time {
+    font-size: 24px;
+    color: #999;
+    margin-top: 10px; }
+  .information_container .information_content {
+    margin-top: 30px; }
+    .information_container .information_content .information_pic {
+      width: 100%;
+      height: 100%; }
+      .information_container .information_content .information_pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .information_container .information_content .information_text {
+      font-size: 20px;
+      color: #666;
+      line-height: 42px;
+      margin-top: 28px; }
+
+/*# sourceMappingURL=information_details.css.map */
